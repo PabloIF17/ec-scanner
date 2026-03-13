@@ -1,0 +1,39 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Database
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Task queue
+celery==5.4.0
+redis==5.0.4
+
+# HTTP client
+httpx==0.27.0
+
+# DNS
+dnspython==2.6.1
+
+# Retry logic
+tenacity==8.3.0
+
+# Structured logging
+structlog==24.1.0
+
+# Utils
+python-dotenv==1.0.1
+python-dateutil==2.9.0
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.6
+pytest-httpx==0.30.0
+factory-boy==3.3.0
